@@ -20,24 +20,15 @@ A classificação das componentes em famílias constitui uma etapa de interpreta
 
 ## Relação com a tese
 
-Este repositório reúne os códigos associados à metodologia descrita na tese. Os critérios de análise, as decisões de interpretação e a discussão dos resultados são apresentados no texto da pesquisa.
+Este repositório reúne os códigos associados à metodologia descrita na tese. Os procedimentos, os parâmetros, os critérios de interpretação e a discussão dos resultados são apresentados no texto da pesquisa.
 
-## Documentação de execução
+## Ambiente de execução
 
-A documentação de cada programa deve identificar:
+Os códigos foram utilizados nas análises da tese com Python 3.13. As dependências estão listadas no arquivo `requirements.txt`, sem versões fixadas.
 
-- a versão do Python
-- as bibliotecas utilizadas;
-- os arquivos de entrada e sua organização;
-- os parâmetros definidos pelo usuário;
-- o procedimento de execução;
-- os arquivos produzidos.
+A execução dos aplicativos pode exigir ajustes de compatibilidade entre as bibliotecas e o ambiente do usuário.
 
-  ## Ambiente de execução
-
-  Os códigos disponibilizados neste repositório foram utilizados nas análises da tese com Python 3.13. As dependências estão listadas no arquivo `requirements.txt`, sem versões fixadas. A execução dos aplicativos pode exigir ajustes de compatibilidade entre as bibliotecas e o ambiente do usuário.
-
-  ## Instalação
+## Instalação
 
 Baixe o repositório e extraia os arquivos em uma pasta. Com o terminal aberto nessa pasta, instale as dependências:
 
@@ -75,4 +66,8 @@ A preparação dos dados e os critérios de análise são descritos na metodolog
 
 ## Como citar
 
-Ao utilizar estes códigos, cite a versão consultada do repositório. As informações de autoria e citação serão registradas no arquivo `CITATION.cff`.
+Ao utilizar estes códigos em trabalhos acadêmicos, solicita-se a citação do repositório, identificando a versão ou o commit consultado. As informações de autoria e citação estão disponíveis no arquivo `CITATION.cff`.
+
+## Licença
+
+Os códigos deste repositório são distribuídos sob a GNU General Public License, versão 3 (GPL-3.0-only). Consulte o arquivo `LICENSE` para conhecer os termos.
