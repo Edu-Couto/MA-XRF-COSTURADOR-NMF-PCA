@@ -1,0 +1,8 @@
+PyQt5
+customtkinter
+h5py
+matplotlib
+numpy
+pandas
+scikit-learn
+scipy
