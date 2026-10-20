@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Caso utilize estes códigos, cite este repositório."
+title: "MA-XRF — Costura, NMF e PCA"
+type: software
+authors:
+  - family-names: "Couto"
+    given-names: "Eduardo"
+url: "https://github.com/Edu-Couto/MA-XRF-COSTURADOR-NMF-PCA"
