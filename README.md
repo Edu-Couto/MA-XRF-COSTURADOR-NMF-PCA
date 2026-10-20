@@ -26,11 +26,16 @@ Este repositório reúne os códigos associados à metodologia descrita na tese.
 
 A documentação de cada programa deve identificar:
 
-- a versão do Python e das bibliotecas utilizadas;
+- a versão do Python
+- as bibliotecas utilizadas;
 - os arquivos de entrada e sua organização;
 - os parâmetros definidos pelo usuário;
 - o procedimento de execução;
 - os arquivos produzidos.
+
+  ## Ambiente de execução
+
+  Os códigos disponibilizados neste repositório foram utilizados nas análises da tese com Python 3.13. As dependências estão listadas no arquivo `requirements.txt`, sem versões fixadas. A execução dos aplicativos pode exigir ajustes de compatibilidade entre as bibliotecas e o ambiente do usuário.
 
   ## Instalação
 
