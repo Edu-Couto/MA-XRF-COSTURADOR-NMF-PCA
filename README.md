@@ -32,6 +32,42 @@ A documentação de cada programa deve identificar:
 - o procedimento de execução;
 - os arquivos produzidos.
 
+  ## Instalação
+
+Baixe o repositório e extraia os arquivos em uma pasta. Com o terminal aberto nessa pasta, instale as dependências:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+Os programas possuem interface gráfica e devem ser executados em um computador com ambiente desktop. A instalação do Python deve incluir suporte a Tkinter, utilizado pelo NMF e pela PCA.
+
+## Execução
+
+Execute separadamente o comando correspondente ao programa desejado.
+
+**Costurador:**
+
+```bash
+python costurador.py
+```
+
+**NMF:**
+
+```bash
+python NMF-Final.py
+```
+
+**PCA:**
+
+```bash
+python "PCA-COM GRAFICO SINTESE 3D.py"
+```
+
+O costurador e o programa NMF trabalham com dados em HDF5. O programa PCA recebe uma matriz CSV organizada com uma obra por linha e variáveis espectrais por coluna.
+
+A preparação dos dados e os critérios de análise são descritos na metodologia da tese.
+
 ## Como citar
 
 Ao utilizar estes códigos, cite a versão consultada do repositório. As informações de autoria e citação serão registradas no arquivo `CITATION.cff`.
